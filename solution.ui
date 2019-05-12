@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Solution</class>
+ <widget class="QWidget" name="Solution">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Solution</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/images/background3.jpeg);</string>
+  </property>
+  <widget class="QGraphicsView" name="view2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>701</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-image: url(:/images/background0.jpeg)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="again">
+   <property name="geometry">
+    <rect>
+     <x>569</x>
+     <y>507</y>
+     <width>92</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>New
+sudoku</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
